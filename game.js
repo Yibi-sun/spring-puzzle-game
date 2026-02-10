@@ -17,9 +17,9 @@ const GameState = {
 // 游戏配置 - 使用在线图片
 const GameConfig = {
     levels: [
-        { size: 4, time: 120, image: 'puzzle1.jpg' },
-        { size: 6, time: 120, image: 'puzzle2.jpg' },
-        { size: 8, time: 120, image: 'puzzle3.jpg' }
+        { size: 4, time: 600, image: 'puzzle1.jpg' },
+        { size: 6, time: 600, image: 'puzzle2.jpg' },
+        { size: 8, time: 600, image: 'puzzle3.jpg' }
     ],
     maxHints: 3
 };
@@ -707,4 +707,5 @@ function getStoredScores() {
         return window.getStoredScores();
     }
     return [];
+
 }
