@@ -5,7 +5,7 @@ const GameState = {
     levelStartTime: 0,
     levelTime: 0,
     timer: null,
-    timeLeft: 120,
+    timeLeft: 600,
     playerName: '',
     hintCount: 3,
     puzzleSize: 4,
@@ -709,3 +709,4 @@ function getStoredScores() {
     return [];
 
 }
+
